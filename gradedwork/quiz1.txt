@@ -1,0 +1,150 @@
+I am your robotic CSE131 grader, and I provide the following report for your edification.
+Quiz report for d.ai:
+Report prepared at Mon Oct  9 09:24:41 CDT 2017
+
+Question:
+   a) Type of 4.0 - 5/2
+   Grading function: answer=="double"
+   Your answer was: double
+You have chosen wisely! You have earned 5 points.
+
+Explanation: An operation on a double and an int produces a double result, the more general of the two types.
+
+Question:
+   b) Value of  4.0 - 5/2
+   Grading function: answer=="2.0" or answer=="2"
+   Your answer was: 2
+Glad you got that one! You have earned 5 points.
+
+Explanation: 5/2 is computed first, yielding 2.  4.0-2.0 is 2.0. Google Docs changes this to a 2 unfortunately so I have to count that as well.
+
+Question:
+   c) Type of "1"+"4.0"+"5"
+   Grading function: answer=="String"
+   Your answer was: String
+Way to go! You have earned 5 points.
+
+Explanation: This is a concatenation of three Strings.
+
+Question:
+   d) Value of "1" + "4.0" + "5"
+   Grading function: answer=="14.05"
+   Your answer was: 14.05
+You have chosen wisely! You have earned 5 points.
+
+Explanation: The Strings are appended: "1"+"4.0" is "14.0", and appending "5" to that yields "14.05".
+
+Question:
+   e) Type of  5 - 1 / 3
+   Grading function: answer=="int"
+   Your answer was: int
+Nice job! You have earned 5 points.
+
+Explanation: Only integers are involved in both operations so the result is an integer.
+
+Question:
+   f)  Value of 5 - 1 / 3
+   Grading function: answer=="5"
+   Your answer was: 5
+You have chosen wisely! You have earned 5 points.
+
+Explanation: 1/3 evaluates to 0 and 5-0 is 0.
+
+Question:
+   g) Type of 5.0 - 1 + "2"
+   Grading function: answer=="String"
+   Your answer was: String
+You have chosen wisely! You have earned 5 points.
+
+Explanation: The first result is a double but the final result appends the double to a String, so the final result is a String.
+
+Question:
+   h) Value of 5.0 - 1 + "2"
+   Grading function: answer=="4.02"
+   Your answer was: 4.02
+Way to go! You have earned 5 points.
+
+Explanation: 5.0-1 yields 4.0;  appending "2" produces "4.02".
+
+Question:
+   a)  Type of   (6 + 1 / 2 )  < ( 2 + 4 / 3.0 ) 
+   Grading function: answer=="boolean"
+   Your answer was: boolean
+Nice job! You have earned 10 points.
+
+Explanation: The final opeartion here is a comparison, which yields a boolean result.
+
+Question:
+   b)  Value of    (6 + 1 / 2 )  < ( 2 + 4 / 3.0 ) 
+   Grading function: answer=="FALSE"
+   Your answer was: FALSE
+Glad you got that one! You have earned 10 points.
+
+Explanation: 6+1/2 evaluates to the integer 6;  2+4/3.0 evaluates to 3.3333; the result is thus false.
+
+Question:
+   a) The probability that it will snow today
+   Grading function: answer=="double"
+   Your answer was: double
+Glad you got that one! You have earned 5 points.
+
+Explanation: A probability is between 0 and 1, so a double is needed.
+
+Question:
+   b) The name of your favorite movie
+   Grading function: answer=="String"
+   Your answer was: String
+Nice job! You have earned 5 points.
+
+Explanation: Movie titles include alphabetic characters which can only be represented by a String, in terms of the data types we have studied so far.
+
+Question:
+   c) The number of times you said "Hello" today
+   Grading function: answer=="int"
+   Your answer was: int
+Glad you got that one! You have earned 5 points.
+
+Explanation: You have said "Hello" 0, or 1, or 2... times today. So an int is the type for this
+
+Question:
+   d) Whether you have a jacket on
+   Grading function: answer=="boolean"
+   Your answer was: boolean
+Way to go! You have earned 5 points.
+
+Explanation: You either have on jacket, or you don't, so boolean is the best type for this.
+
+Question:
+   A) Which computation is performed first?
+   Grading function: answer=="1" or answer=="2"
+   Your answer was: 1
+Nice job! You have earned 5 points.
+
+Explanation: In a left-to-right reading of the tree, operation 1 is performed first.  But the tree has no left or right orientation, so either operation 1 or 2 could be performed first.
+
+Question:
+   B) Which computation is performed last?
+   Grading function: answer=="5"
+   Your answer was: 5
+Way to go! You have earned 5 points.
+
+Explanation: The root of the tree is the last operation performed, so 5 is the right answer.
+
+Question:
+   double v = (x+y)/2
+   Grading function: answer=="4.0" or answer=="4"
+   Your answer was: 4
+Way to go! You have earned 5 points.
+
+Explanation: This is tricky.  The right hand side is evaluated first, which yields (4+5)/2 = 9/2 = 4, an int. But once this is assgined to v, a double, it becomes 4.0. Thus, 4 is not really a correct answer, but Google docs changes the correct answer 4.0 to that.
+
+Question:
+   double v = (x+y)/2.0
+   Grading function: answer=="4.5"
+   Your answer was: 4.5
+Nice job! You have earned 5 points.
+
+Explanation: The sum 4+5 is 9, an int, but dividing that by 2.0 cause the arithmetic to be carried out in double, which yields the double 4.5.  That value is then assigned to v.
+
+
+Your total score is 100.

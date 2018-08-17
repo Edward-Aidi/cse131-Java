@@ -1,0 +1,158 @@
+I am your robotic CSE131 grader, and I provide the following report for your edification.
+Quiz report for d.ai:
+Report prepared at Mon Oct  9 14:10:21 CDT 2017
+
+Question:
+   What is the value printed by the program shown above?
+   Grading function: answer=="202"
+   Your answer was: 202
+You have chosen wisely! You have earned 5 points.
+
+Explanation: The loop executes 101 times, each time bumping k by 2, so it reaches the value 202 when the loop is done.
+
+Question:
+   What is the value of i at the end of the program shown above?
+   Grading function: answer=="101"
+   Your answer was: 101
+Glad you got that one! You have earned 5 points.
+
+Explanation: The complement of the loop's predicate is i>100.  With i increasing by 1 each interation, it must reach the value of 101 when the loop exits.
+
+Question:
+   The code for A should be
+   Grading function: answer=="i = 0"
+   Your answer was: i = 0
+Glad you got that one! You have earned 5 points.
+
+Explanation: The loop initiliazation appears at "A".
+
+Question:
+   The code for B should be
+   Grading function: answer=="i <= 100"
+   Your answer was: i <= 100
+Nice job! You have earned 5 points.
+
+Explanation: The loop condition for continuing (terating)  appears at "B".
+
+Question:
+   The code for C should be
+   Grading function: answer=="i = i + 1"
+   Your answer was: i = i + 1
+Way to go! You have earned 5 points.
+
+Explanation: The action to be taken at the end of the loop body appears at "C".
+
+Question:
+   The code for D should be
+   Grading function: answer=="k = k + 2"
+   Your answer was: k = k + 2
+You have chosen wisely! You have earned 5 points.
+
+Explanation: The for loop is operating only on i, so the bump of should occur inside, at"D".
+
+Question:
+   The code for E should be
+   Grading function: answer.include?("println")
+   Your answer was: System.out.println(k)
+You have chosen wisely! You have earned 5 points.
+
+Explanation: The output was produced after the loop, so it it should appear at"E".
+
+Question:
+   Which variable should go in the box A?
+   Grading function: answer.include?("allergies")
+   Your answer was: allergies
+Way to go! You have earned 7 points.
+
+Explanation: Based on the logic of this program, we should test for allergies at "A"
+
+Question:
+   Which variable should go in the box B?
+   Grading function: answer.include?("voteForMM")
+   Your answer was: voteForMMs
+You have chosen wisely! You have earned 8 points.
+
+Explanation: Based on the logic of this program, we should test for the outcome of the random trial here at "B"
+
+Question:
+   After running this code, what is the value of array[5]?
+   Grading function: answer=="12"
+   Your answer was: 12
+You have chosen wisely! You have earned 5 points.
+
+Explanation: array[5] does not change in this code, so it is 12 as originally assigned.
+
+Question:
+   After running this code, what is the value of array[4]?
+   Grading function: answer=="20"
+   Your answer was: 20
+You have chosen wisely! You have earned 5 points.
+
+Explanation: array[4] is set to the sum of array[3] and array[5], which are 8 and 12, respectively;   thus array[4] is 20 after the code executes.
+
+Question:
+   After running this code, what is the value of array[3]?
+   Grading function: answer=="12"
+   Your answer was: 12
+You have chosen wisely! You have earned 5 points.
+
+Explanation: array[3] is set to the value of array[5], which is 12 as origiinally assigned.
+
+Question:
+   What belongs in section A?
+   Grading function: answer=="N"
+   Your answer was: N
+Glad you got that one! You have earned 5 points.
+
+Explanation: As the problem states, the array should have N values so we need N inside the brackets at "A" to instantiate an array of the appropriate size.
+
+Question:
+   What belongs in section B?
+   Grading function: answer=="N"
+   Your answer was: N
+Way to go! You have earned 5 points.
+
+Explanation: Because i starts at 0 and we are computing N values, the correct predicate is i<N at "B".
+
+Question:
+   What belongs in section C?
+   Grading function: answer=="i"
+   Your answer was: i
+You have chosen wisely! You have earned 5 points.
+
+Explanation: To create a value at each index location of the array, the store must be to array[i] at "C".
+
+Question:
+   What belongs in section D?
+   Grading function: answer=="3*(i+1)"
+   Your answer was: 3*(i+1)
+Glad you got that one! You have earned 5 points.
+
+Explanation: To achieve the sequence 3, 6, 9, ..., with i starting at 0, we must use the expression 3i+1 at "D".
+
+Question:
+   What belongs in section A?
+   Grading function: answer=="N-1"
+   Your answer was: N-1
+Glad you got that one! You have earned 5 points.
+
+Explanation: The predicate uses <= so we must stop when i is greater than N-1.  Thus N=1 goes at section "A".
+
+Question:
+   What belongs in section B?
+   Grading function: answer.include?("above")
+   Your answer was: Any of the above
+Nice job! You have earned 5 points.
+
+Explanation: All of the choices increase i by 1, which is what is needed at section "B".
+
+Question:
+   What belongs in section C?
+   Grading function: answer=="N - 1 - i"
+   Your answer was: N - 1 - i
+Way to go! You have earned 5 points.
+
+Explanation: The indexes here must go backwards, starting at the last valid index of the array, which is at N-1.  When i is 0, N-1-i is N-1, the last element;  when i is N-1, N-1-(N-1) is 0, the first element.  Thus N-1-i is the only valid choice for "C".
+
+
+Your total score is 100.

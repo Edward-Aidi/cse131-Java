@@ -1,0 +1,86 @@
+I am your robotic CSE131 grader, and I provide the following report for your edification.
+Quiz report for d.ai:
+Report prepared at Sat Oct 14 17:19:20 CDT 2017
+
+Question:
+   After running this code, what is the value of array[5]?
+   Grading function: answer=="12"
+   Your answer was: 12
+Nice job! You have earned 10 points.
+
+Explanation: array[5] does not change in this code, so it is 12 as originally assigned.
+
+Question:
+   After running this code, what is the value of array[4]?
+   Grading function: answer=="20"
+   Your answer was: 20
+You have chosen wisely! You have earned 10 points.
+
+Explanation: array[4] is set to the sum of array[3] and array[5], which are 8 and 12, respectively;   thus array[4] is 20 after the code executes.
+
+Question:
+   After running this code, what is the value of array[3]?
+   Grading function: answer=="12"
+   Your answer was: 12
+Glad you got that one! You have earned 10 points.
+
+Explanation: array[3] is set to the value of array[5], which is 12 as origiinally assigned.
+
+Question:
+   What belongs in section A?
+   Grading function: answer=="N"
+   Your answer was: N
+You have chosen wisely! You have earned 10 points.
+
+Explanation: As the problem states, the array should have N values so we need N inside the brackets at "A" to instantiate an array of the appropriate size.
+
+Question:
+   What belongs in section B?
+   Grading function: answer=="N"
+   Your answer was: N
+Way to go! You have earned 10 points.
+
+Explanation: Because i starts at 0 and we are computing N values, the correct predicate is i<N at "B".
+
+Question:
+   What belongs in section C?
+   Grading function: answer=="i"
+   Your answer was: i
+Nice job! You have earned 10 points.
+
+Explanation: To create a value at each index location of the array, the store must be to array[i] at "C".
+
+Question:
+   What belongs in section D?
+   Grading function: answer=="3*(i+1)"
+   Your answer was: 3*(i+1)
+Way to go! You have earned 10 points.
+
+Explanation: To achieve the sequence 3, 6, 9, ..., with i starting at 0, we must use the expression 3i+1 at "D".
+
+Question:
+   What belongs in section A?
+   Grading function: answer=="N-1"
+   Your answer was: N-1
+Way to go! You have earned 10 points.
+
+Explanation: The predicate uses <= so we must stop when i is greater than N-1.  Thus N=1 goes at section "A".
+
+Question:
+   What belongs in section B?
+   Grading function: answer.include?("above")
+   Your answer was: Any of the above
+Way to go! You have earned 10 points.
+
+Explanation: All of the choices increase i by 1, which is what is needed at section "B".
+
+Question:
+   What belongs in section C?
+   Grading function: answer=="N-1-i"
+   Your answer was: N-1-i
+Nice job! You have earned 10 points.
+
+Explanation: The indexes here must go backwards, starting at the last valid index of the array, which is at N-1.  When i is 0, N-1-i is N-1, the last element;  when i is N-1, N-1-(N-1) is 0, the first element.  Thus N-1-i is the only valid choice for "C".
+
+
+Your total score is 100.

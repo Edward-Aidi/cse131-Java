@@ -1,0 +1,105 @@
+-------------------
+CSE247 Robot tester starts testing lab8 on 2017-11-23 14:42:12 -0600
+
+========
+Testing in ./GradingRepos/./cse131-f17-students-d.ai: lab8 as of 2017-11-14 20:00
+========
+Now in: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at b1e4886 robograde
+No local changes to save
+
+Updating b1e4886..9b2f3ab
+Fast-forward
+ RoboGrade/lab8-TermTest.txt | 25 +++++++++++++++----------
+ 1 file changed, 15 insertions(+), 10 deletions(-)
+Going back in time to: 2017-11-14 20:00
+At hash 75437e8fff393528747d8eb5044175e1aa127ce8
+
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/roncytron/git2/cse131-f17-students key d.ai testfilesource SparsePolynomialTest package lab8 repo ./GradingRepos/./cse131-f17-students-d.ai
+     [copy] Copying 1 file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/labs/lab8
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab8/Term
+    [mkdir] Created dir: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/bin
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab8/SparsePolynomial
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab8/SparsePolynomialTest
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/bin
+    [javac] Note: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/labs/lab8/SparsePolynomialTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test SparsePolynomialTest
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+test:
+    [junit] Running lab8.SparsePolynomialTest
+    [junit] Testsuite: lab8.SparsePolynomialTest
+    [junit] p2 is lab8.SparsePolynomial@883c0f29
+    [junit] p2's derivative is lab8.SparsePolynomial@c9ee0b65
+    [junit] Newly constructed poly is lab8.SparsePolynomial@1f
+    [junit] Showing toString() for a missing term: lab8.SparsePolynomial@89bba7a3
+    [junit] Showing toString() for summed poly lab8.SparsePolynomial@ca3af29
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+    [junit] Output:
+    [junit] p2 is lab8.SparsePolynomial@883c0f29
+    [junit] p2's derivative is lab8.SparsePolynomial@c9ee0b65
+    [junit] Newly constructed poly is lab8.SparsePolynomial@1f
+    [junit] Showing toString() for a missing term: lab8.SparsePolynomial@89bba7a3
+    [junit] Showing toString() for summed poly lab8.SparsePolynomial@ca3af29
+    [junit] 
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] p2 is lab8.SparsePolynomial@883c0f29
+    [junit] p2's derivative is lab8.SparsePolynomial@c9ee0b65
+    [junit] Newly constructed poly is lab8.SparsePolynomial@1f
+    [junit] Showing toString() for a missing term: lab8.SparsePolynomial@89bba7a3
+    [junit] Showing toString() for summed poly lab8.SparsePolynomial@ca3af29
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testToArray took 0.002 sec
+    [junit] Testcase: testSum took 0.001 sec
+    [junit] Testcase: testDeriv took 0 sec
+    [junit] Testcase: testEval1 took 0.001 sec
+    [junit] Testcase: testEval2 took 0 sec
+    [junit] Testcase: testPrint took 0 sec
+    [junit] Testcase: testZeros took 0 sec
+    [junit] Testcase: testInit took 0 sec
+    [junit] Testcase: testOneMissingTerm took 0 sec
+    [junit] Testcase: testLikeTheresNoTomorrow took 0.021 sec
+    [junit] Testcase: testNoMutateAddTerm took 0.005 sec
+    [junit] Testcase: testOnlyOneInstanceVar took 0 sec
+    [junit] Testcase: testDegree took 0.008 sec
+    [junit] Testcase: testNoMutateSum took 0 sec
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing lab8 on 2017-11-23 14:42:17 -0600
+-------------------

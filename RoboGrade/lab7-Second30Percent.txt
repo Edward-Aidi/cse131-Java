@@ -1,0 +1,75 @@
+-------------------
+CSE247 Robot tester starts testing lab7 on 2017-11-15 22:07:53 -0600
+
+========
+Testing in ./GradingRepos/./cse131-f17-students-d.ai: lab7 as of 2017-11-14 20:00
+========
+Now in: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at 75437e8 lab
+No local changes to save
+
+Updating 75437e8..f4112fc
+Fast-forward
+ RoboGrade/lab7-First30Percent.txt | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+Going back in time to: 2017-11-14 20:00
+At hash 75437e8fff393528747d8eb5044175e1aa127ce8
+
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/roncytron/git2/cse131-f17-students key d.ai testfilesource Second30Percent package lab7 repo ./GradingRepos/./cse131-f17-students-d.ai
+     [copy] Copying 1 file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/labs/lab7
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab7/Student
+    [mkdir] Created dir: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/bin
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab7/Course
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab7/Second30Percent
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-d.ai/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test Second30Percent
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+test:
+    [junit] Running lab7.Second30Percent
+    [junit] Testsuite: lab7.Second30Percent
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] 
+    [junit] Testcase: testCreateLegacy took 0.009 sec
+    [junit] Testcase: testSubmitGrade took 0 sec
+    [junit] Testcase: testGetClassStanding took 0.001 sec
+    [junit] Testcase: testStudentToString took 0.003 sec
+    [junit] Testcase: testStudentInit took 0 sec
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing lab7 on 2017-11-15 22:07:57 -0600
+-------------------

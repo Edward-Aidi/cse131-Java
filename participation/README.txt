@@ -1,0 +1,1 @@
+This folder will hold the results of the participation credit checks for exercises, etc.
